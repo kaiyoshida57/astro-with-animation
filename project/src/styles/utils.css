@@ -1,0 +1,85 @@
+main {
+  max-width: 1000px;
+  margin: 150px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    margin: 80px auto 0;
+    padding: 0 16px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+
+h1 {
+  color: #fff;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 100px auto 0;
+}
+
+a {
+  color: cornflowerblue;
+  display: block;
+  word-break: break-all;
+}
+
+p {
+  font-size: 20px;
+  line-height: 2;
+  margin: 40px 0;
+}
+
+.mt {
+  margin-top: 80px;
+}
+
+.text-gradient {
+  color: #f66f14;
+  background: -webkit-linear-gradient(0deg, #f66f14, #dfbf00, #72ff21);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color-other {
+  color: gold;
+}
+
+.flexBox {
+  display: flex;
+  align-items: start;
+  gap: 80px;
+}
+
+.instructions {
+  font-size: 28px;
+  line-height: 2;
+  margin: 100px 0;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.note {
+  border-top: solid 2px #fff;
+  padding-top: 40px;
+}
